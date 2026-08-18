@@ -23,7 +23,6 @@ def health():
         "status": "ok"
     }
 
-///TEMPORARY
 import requests
 @app.get("/test-nba")
 def test_nba():
@@ -54,7 +53,7 @@ def test_nba():
         "length": len(response.text),
         "data": response.json(),
     }
-////  
+
 @app.get("/random-player-season")
 def random_player_season():
 
